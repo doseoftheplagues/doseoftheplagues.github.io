@@ -1,0 +1,74 @@
+body {
+  background: url(/Users/sofiatarn/workspace/dev-academy/doseoftheplagues.github.io/images/DSCN3803.JPEG);
+  background-size: cover;
+}
+
+.header {
+  margin: 0px auto;
+  text-align: left;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  backdrop-filter: blur(5px);
+}
+
+#page-layout {
+  margin: 0px auto;
+  width: 612px;
+  float: left;
+}
+
+#blog-layout {
+  width: 500px;
+  background-color: #f2e3e7;
+  border: 3px solid #f1f1e3;
+  margin: 0 auto;
+  margin-top: 60px;
+  float: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#blog-header {
+  width: max-content;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  display: flex;
+  grid-column: 1 / 9;
+  grid-row: 1 / 1;
+  margin: 0 auto;
+}
+
+.blog-sidebar {
+  width: 100px;
+  height: 200px;
+  background-color: #f2e3e7;
+  border: 3px solid #f1f1e3;
+  margin-top: 60px;
+  float: left;
+}
+
+/* widescreen displays */
+@media only screen and (min-width: 920px) {
+  .container {
+    /* some layout rules */
+  }
+}
+
+/* tablets */
+@media only screen and (max-width: 919px) {
+  .container {
+    /* some layout rules */
+  }
+}
+
+/* phones */
+@media only screen and (max-width: 400px) {
+  .container {
+    /* some layout rules */
+  }
+}
