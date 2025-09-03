@@ -3,6 +3,10 @@ body {
   background-size: cover;
 }
 
+p {
+  margin: 0 auto;
+}
+
 .header {
   margin: 0px auto;
   text-align: left;
@@ -10,11 +14,26 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 100;
-  backdrop-filter: blur(5px);
+  color: #eeeeee;
+  border: 2px solid #eeeeee;
+  background-color: #d5b2bb;
+}
+
+.navbar {
+  text-align: left;
+  font-size: 10px;
+  color: #eeeeee;
+  padding: 2px;
+  border-left: 2px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
+  border-right: 2px solid #eeeeee;
+  background-color: #d5b2bb;
+  margin: 0px auto;
 }
 
 #page-layout {
   margin: 0px auto;
+  padding: 10px;
   width: 612px;
   float: left;
 }
@@ -49,6 +68,10 @@ body {
   background-color: #f2e3e7;
   border: 3px solid #f1f1e3;
   margin-top: 60px;
+  float: left;
+}
+
+.page-icon {
   float: left;
 }
 
