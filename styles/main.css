@@ -128,6 +128,15 @@ a:visted {
   color: #cb7389 !important;
 }
 
+.example-text-class {
+  margin: 10px;
+  color: #84ff00;
+}
+
+#example-text-id {
+  color: #ff00ea;
+}
+
 /* widescreen displays */
 @media only screen and (min-width: 920px) {
   .container {
