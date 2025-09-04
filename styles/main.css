@@ -1,5 +1,5 @@
 body {
-  background: url(/Users/sofiatarn/workspace/dev-academy/doseoftheplagues.github.io/images/DSCN3803.JPEG);
+  background: url(/Users/sofiatarn/workspace/dev-academy/doseoftheplagues.github.io/images-gifs/DSCN3803.JPEG);
   background-size: cover;
 }
 
@@ -49,18 +49,6 @@ p {
   text-align: center;
 }
 
-#blog-header {
-  width: max-content;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-  text-align: center;
-  display: flex;
-  grid-column: 1 / 9;
-  grid-row: 1 / 1;
-  margin: 0 auto;
-}
-
 .blog-sidebar {
   width: 100px;
   background-color: #efe8da;
@@ -71,6 +59,33 @@ p {
   text-align: left;
 }
 
+.blog-header {
+  width: max-content;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 2px;
+  border-bottom: 2px dotted #d5b2bb;
+}
+
+.blog-image {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #d5b2bb;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.blog-body {
+  font-size: 15px;
+}
+
 ul {
   padding-inline-start: 0;
 }
@@ -78,7 +93,7 @@ ul {
 li {
   border-bottom: 2px dotted #d5b2bb;
   text-indent: 2px;
-  color: #b37e8b;
+  color: #734e58;
 }
 
 /* widescreen displays */
