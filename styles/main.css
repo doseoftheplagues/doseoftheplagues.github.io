@@ -31,6 +31,16 @@ p {
   margin: 0px auto;
 }
 
+.title-bar {
+  text-align: left;
+  font-size: 10px;
+  color: #b17e95;
+  font-size: 15px;
+  padding: 2px;
+  background-color: #e1d6cf;
+  margin: 0px auto;
+}
+
 #page-layout {
   margin: 0px auto;
   padding: 10px;
@@ -115,7 +125,7 @@ a:hover {
 
 a:visted {
   text-decoration: none;
-  color: #cb7389;
+  color: #cb7389 !important;
 }
 
 /* widescreen displays */
