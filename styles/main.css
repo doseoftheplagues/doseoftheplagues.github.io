@@ -227,6 +227,12 @@ a:visted {
   float: left;
 }
 
+li {
+  border-bottom: 2px dotted #d5b2bb;
+  text-indent: 2px;
+  color: #734e58;
+  font-size: 25px;
+}
 
   .header {
     width: 90vw;
