@@ -146,7 +146,7 @@ a:visted {
 
 /* tablets */
 @media only screen and (max-width: 919px) {
-  .container {
+ 
     #blog-layout {
       width: fit-content;
       background-color: #f2e3e7;
