@@ -89,6 +89,15 @@ p {
   margin-top: 2px;
 }
 
+.alt-blog-image {
+  height: 100px;
+  border: 2px solid #d5b2bb;
+  float: right;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+
 .blog-body {
   font-size: 15px;
   margin: 10px;
