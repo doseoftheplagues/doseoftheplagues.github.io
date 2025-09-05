@@ -220,6 +220,16 @@ a:visted {
 
 /* phones */
 @media only screen and (max-width: 400px) {
+
+
+#page-layout {
+  margin: 0px auto;
+  padding: 10px;
+  width: 90vw;
+  float: left;
+}
+
+
   .header {
     width: 90vw;
     margin: 0px auto;
