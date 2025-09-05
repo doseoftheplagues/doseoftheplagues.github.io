@@ -220,8 +220,34 @@ a:visted {
 
 /* phones */
 @media only screen and (max-width: 400px) {
+  .header {
+    width: 90vw;
+    margin: 0px auto;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: #eeeeee;
+    border: 2px solid #eeeeee;
+    background-color: #d5b2bb;
+  }
+
+  .bar {
+    width: 90vw;
+    text-align: left;
+    font-size: 10px;
+    color: #eeeeee;
+    padding: 2px;
+    border-left: 2px solid #eeeeee;
+    border-bottom: 2px solid #eeeeee;
+    border-right: 2px solid #eeeeee;
+    background-color: #d5b2bb;
+    margin: 0px auto;
+  }
+
   #blog-layout {
-    width: fit-content;
+    width: 90vw;
     background-color: #f2e3e7;
     border-right: 3px solid #f1f1e3;
     border-bottom: 3px solid #f1f1e3;
@@ -232,7 +258,7 @@ a:visted {
 
   .blog-sidebar {
     font-size: 10px;
-    width: 604px;
+    width: 90wv;
     color: #eeeeee;
     padding: 2px;
     border-left: 2px solid #eeeeee;
