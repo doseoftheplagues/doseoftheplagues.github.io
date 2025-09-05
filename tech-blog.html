@@ -19,8 +19,10 @@
   </div>
   <img class="blog-image" src="https://doseoftheplagues.github.io/images-gifs/254638_16a55.gif"></img>
   <p class="blog-subheader">Best practice for CSS Classes and Ids</p> 
-    <p class="blog-body"> Classes and ids are used to apply css or javascript to a targeted html element. Classes are used to create a class of css elements that are intended to be used repeatedly throughout a given project. Ids are used to create individual elements with unique properties that will be used once or in only a few instances. Classes and ids use the same syntax: class=”class-name” id=”id-name”. Best practice when coding is to use classes more often than ids. This makes projects far more manageable as they grow bigger, having fewer classes that apply to large sections of the code is preferable to having to parse lots of hyperspecific id styling. Css specificity rules mean that ids override classes, and classes override elements. This means that if an element’s style rules dictate that a box should be red, a class's rules dictate it should be green and an id’s rules say blue, the box will be made blue, as the id’s style rules take priority. </p>
-
+    <p class="blog-body"> Classes and ids are used to apply css or javascript to a targeted html element. Classes are used to create a class of css elements that are intended to be 
+      used repeatedly throughout a given project. Ids are used to create individual elements with unique properties that will be used once or in only a few instances. Ids also can 
+      serve as bookmarks that can be used to jump to a specific place on the page. This is achieved by designating a link’s href destination to match the id of the targeted destination.  </p>
+      <br><br>
 
 <a href="#bookmark"> Click to jump to bookmark! </a>
 <!--  
@@ -28,7 +30,11 @@ more code
 -->
 <p id="bookmark"> Bookmark </p>
 
+<br><br>
 
+<img class="alt-blog-image" src="https://doseoftheplagues.github.io/images-gifs/Image 05-09-2025 at 12.23 PM.jpg"> </img>
+
+<p class="blog-body"> Classes and ids use the same syntax: class=”class-name” id=”id-name”. Best practice when coding is to use classes for everything that doesn’t need an individual function or style. This makes projects far more manageable as they grow bigger, having fewer classes that apply to large sections of the code is preferable to having to parse lots of hyperspecific id styling. Css specificity rules mean that ids override classes, and classes override elements. This means that if an element’s style rules dictate that an h3 should be pink, a class's rules dictate it should be purple and an id’s rules say black, the h3 heading will be made blue, as the id’s style rules take priority.</p>
 
 
 
