@@ -44,12 +44,12 @@ p {
 #page-layout {
   margin: 0px auto;
   padding: 10px;
-  width: 612px;
+   width: 100%;
   float: left;
 }
 
 #blog-layout {
-  width: 503px;
+  width: 100%;
   background-color: #f2e3e7;
   border-right: 3px solid #f1f1e3;
   border-bottom: 3px solid #f1f1e3;
