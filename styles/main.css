@@ -221,94 +221,46 @@ a:visted {
 
 
 #page-layout {
-  margin: 0px auto;
-  padding: 10px;
   width: 90vw;
-  float: left;
 }
 
 li {
-  border-bottom: 2px dotted #d5b2bb;
-  text-indent: 2px;
-  color: #734e58;
   font-size: 25px;
 }
 
   .header {
     width: 90vw;
-    margin: 0px auto;
-    text-align: center;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    font-weight: 100;
-    color: #eeeeee;
-    border: 2px solid #eeeeee;
-    background-color: #d5b2bb;
+
   }
 
   .bar {
     width: 90vw;
-    text-align: left;
-    font-size: 10px;
-    color: #eeeeee;
-    padding: 2px;
-    border-left: 2px solid #eeeeee;
-    border-bottom: 2px solid #eeeeee;
-    border-right: 2px solid #eeeeee;
-    background-color: #d5b2bb;
-    margin: 0px auto;
+    font-size: 20px;
+
   }
 
   #blog-layout {
     width: 90vw;
-    background-color: #f2e3e7;
-    border-right: 3px solid #f1f1e3;
-    border-bottom: 3px solid #f1f1e3;
-    border-left: 3px solid #f1f1e3;
-    margin: 0 auto;
-    float: left;
   }
 
   .blog-sidebar {
-    font-size: 10px;
+    font-size: 20px;
     width: 90wv;
-    color: #eeeeee;
-    padding: 2px;
-    border-left: 2px solid #eeeeee;
-    border-bottom: 2px solid #eeeeee;
-    border-right: 2px solid #eeeeee;
-    margin: 0px auto;
-    background-color: #efe8da;
   }
 
   .blog-header {
-    width: max-content;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    font-weight: 300;
-    display: flex;
-    margin: 10px;
-    padding-bottom: 2px;
-    border-bottom: 2px dotted #d5b2bb;
+    font-size: 25px;
+
   }
 
   .blog-subheader {
     font-size: 25px;
-    font-style: italic;
-    margin: 10px;
-    text-align: left;
-    color: #734e58;
   }
 
   .blog-image {
     width: 150px;
     height: 150px;
-    border: 2px solid #d5b2bb;
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 2px;
   }
 
   .blog-body {
@@ -319,13 +271,4 @@ li {
     overflow: hidden;
   }
 
-  li {
-    border-bottom: 2px dotted #d5b2bb;
-    text-indent: 2px;
-    color: #734e58;
-    float: left;
-    font-size: 25px;
-    text-align: center;
-    margin: 8px;
-  }
 }
