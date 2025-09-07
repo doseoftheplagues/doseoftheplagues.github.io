@@ -41,10 +41,10 @@ p {
   margin: 0px auto;
 }
 
-#page-layout {
+.page-layout {
   margin: 0px auto;
   padding: 10px;
-  width: 100%;
+  width: 680px;
   float: left;
 }
 
@@ -90,7 +90,7 @@ p {
 }
 
 .alt-blog-image {
-  width: 200px;
+  width: 100%;
   border: 2px solid #d5b2bb;
   float: right;
   margin: 10px;
@@ -137,6 +137,10 @@ a:visted {
 
 /* tablets */
 @media only screen and (max-width: 919px) {
+  #page-layout {
+    width: 90wv;
+  }
+
   #blog-layout {
     width: 90wv;
   }
