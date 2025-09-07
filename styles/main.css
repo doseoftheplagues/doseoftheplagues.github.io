@@ -59,7 +59,7 @@ p {
 }
 
 .blog-sidebar {
-  width: 100px;
+  width: 100%;
   background-color: #efe8da;
   border-left: 3px solid #f1f1e3;
   border-bottom: 3px solid #f1f1e3;
