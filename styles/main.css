@@ -48,8 +48,7 @@ p {
   float: left;
 }
 
-#blog-layout {
-  width: 90wv;
+.blog-layout {
   background-color: #f2e3e7;
   border-right: 3px solid #f1f1e3;
   border-bottom: 3px solid #f1f1e3;
@@ -90,7 +89,7 @@ p {
 }
 
 .alt-blog-image {
-  width: 100%;
+  width: 94%;
   border: 2px solid #d5b2bb;
   float: right;
   margin: 10px;
@@ -141,7 +140,7 @@ a:visted {
     width: 90wv;
   }
 
-  #blog-layout {
+  .blog-layout {
     width: 90wv;
   }
 
@@ -207,7 +206,7 @@ a:visted {
     font-size: 20px;
   }
 
-  #blog-layout {
+  .blog-layout {
     width: 90vw;
   }
 
