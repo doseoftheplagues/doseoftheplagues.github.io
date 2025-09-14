@@ -12,19 +12,21 @@
   <div class="blog-layout">
 
   <div class="blog-header">  
-  <p > ✩Tech Blog 05/09/2025✩ </p>
+  <p > ✩Javascript + the DOM 14/09/25✩ </p>
   </div>
   <img class="blog-image" src="https://doseoftheplagues.github.io/images-gifs/254638_16a55.gif"></img>
-  <p class="blog-subheader">Best practice for CSS Classes and Ids</p> 
-    <p class="blog-body"> Classes and ids are used to apply css or javascript to a targeted html element. Classes are used to create a class of css elements that are intended to be 
-      used repeatedly throughout a given project. Ids are used to create individual elements with unique properties that will be used once or in only a few instances. Ids also can 
-      serve as bookmarks that can be used to jump to a specific place on the page. This is achieved by designating a link’s href destination to match the id of the targeted destination. Here's an example of this: The following link will take you to the P tag at the bottom of the page that has the corresponding bookmark id. The code for this is shown in the image below.  </p>
-
-<a href="#bookmark"> Click to jump to bookmark! </a>
-
-<br>
-
-<img class="alt-blog-image" src="https://doseoftheplagues.github.io/images-gifs/Image 05-09-2025 at 12.23 PM.jpg"> </img>
+  <p class="blog-subheader">What is JavaScript and its relationship to HTML and CSS?</p> 
+    <p class="blog-body">The typical analogy to explain the three is the makeup of a house. HTML is the basic structure of a website. Within the house HTML is the foundations, frame, walls and roof of the building. It dictates how large the house is,  what you actually interact with on the outside and in. CSS is the design of a website. It changes the house’s looks and decoration, what colour the walls are painted, how the rooms are laid out and all other such things. It dictates how the basic frame provided by HTML is made to look. Javascript is the functionality of a website. In the house metaphor you could think of it as all the wiring, plumbing and functions that you need to interact with different parts of the house. CSS might choose where a window is, but javascript acts as the hinges and latch that allow someone to open it.</p>
+<p class="blog-subheader">What are control flow and loops?</p>
+<p class="blog-body">Javascript control flow is the order in which javascript chooses to do things. Think of it as a written schedule for a day's events. This is the schedule:</p>
+<ul> 
+<li>6:00am - Wake up</li>
+<li>9:00am - Go to doctors appointment</li>
+<li>1:00pm - Brush teeth</li>
+<li>1:30pm - Dentist appointment</li>
+</ul>
+<p class="blog-body">By default the order you go through scheduled events in the schedule is top to bottom. Javascript is written in a similar vertical format and just like the schedule by default it will enact any events in the script from top to bottom. There are a number of ways to change this however. For example, what if the doctor gives you a prescription and you need to add into the schedule (or control flow) a trip to the pharmacy to pick it up? One common way to do this in javascript is If and Else statements, which are called conditionals. They work mostly how you’d expect, for the schedule example If you are given a prescription then you should take a trip to the pharmacy, Else (otherwise) carry on with your schedule. Here’s an example of a way you could write this in Javascript. </p>
+<img class="alt-blog-image" src="https://doseoftheplagues.github.io/images-gifs/conditional-example.jpg"> </img>
 <br>
 <p class="blog-body"> Classes and ids use the same syntax: class=”class-name” id=”id-name”. Best practice when coding is to use classes for everything that doesn’t need an individual function or style. This makes projects far more manageable as they grow bigger, having fewer classes that apply to large sections of the code is preferable to having to parse lots of hyperspecific id styling. Css specificity rules mean that ids override classes, and classes override elements. This means that if an element’s style rules dictate that an h3 should be pink, a class's rules dictate it should be purple and an id’s rules say black, the h3 heading will be made blue, as the id’s style rules take priority.</p>
 <img class="alt-blog-image" src="https://doseoftheplagues.github.io/images-gifs/Image 05-09-2025 at 11.47 AM.jpg"> </img>
