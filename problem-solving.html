@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    href="https://doseoftheplagues.github.io/styles/main.css"
+    rel="stylesheet"
+    type="text/css"
+  />
+</head>
+<body>
+  <div class="page-layout">
+      <div class="header"> <p> ₊✩‧₊˚౨ Sofia.Devacademy.Blog ৎ˚₊✩‧₊ </p> </div>
+  <div class="bar"> <p> ݁₊ ݁₊ ⊹ .⊹ . ݁ . ݁·₊ ⊹ ⋆˙⟡.  ݁₊ ⊹ . ݁˖ . ݁·₊ ⊹ ⋆˙⟡. ܁˖ .  ݁₊ ⊹ . ݁˖ . ݁·₊ ⊹ ⋆˙⟡. ܁˖ .  ݁₊ ⊹ . ݁˖ . ݁·₊ ⊹ ⋆˙⟡. ܁˖ . ܁ ݁₊ ⊹ . ݁˖ . ݁·₊ ⊹ ⋆˙⟡. ܁˖ .  ݁₊ ⊹ . ݁˖ . ݁·₊ ⊹ ⋆˙⟡. ܁˖ .  ݁₊ ⊹ . ݁˖ . ݁·₊ ⊹ ⋆˙⟡. ܁˖ . ˖ . ܁</p></div>
+  
+  <div class="blog-layout">
+
+  <div class="blog-header">  
+  <p id="values"> ✩Problem Solving blog 19/09/2025✩ </p>
+  </div>
+  <img class="blog-image" src="https://doseoftheplagues.github.io/images-gifs/4118978_d6358.gif"></img>
+<p class="blog-subheader">Talk about a time you were blocked on a simple problem</p> 
+<p class="blog-body">The javascript kata problem I was stuck on for the longest was the deebee problem. The problem you are prompted with is you need to write code that removes all instances of the word buzz from the sentence "Help! buzz I'm buzz buzz surrounded buzz by buzz buzz bees!!". In a previous exercise a similar function had to be created to capitalise the first letter of every word in a sentence by splitting the string into separate words, mapping over the array of words and altering each of them before joining them back together, so I used that function as a starting point.  It took me a while but I inevitably managed to get the function to work deleting the instances of buzz, using the filter method as suggested by the problem's premise question. The part of the challenge that I got stuck on was making the function work regardless of what capitalisation the buzzes used. I didn’t really grasp the differences between the map method used in the previous problem and the filter method used in this one. I was worried that if I used a method to make the incoming string lowercase the string that the function outputs would be altered. I spent quite a while trying things out based on this misunderstanding, vaguely trying to plainly write out what the best approach would be and where I might place functions to alter capitalization before deciding to take a break from writing code and just research how the filter function actually works. I quickly realised my mistakes and that I had been pulling on the wrong thread the entire time and was able to fix my code and correctly use the filter function. Unlike if I were using a map, entering the toLowerCase method within the filter method does not actually change the code, just what the filter is viewing and filtering out.</p>
+<p class="blog-subheader">Discuss a time you elegantly solved a problem</p>
+<p class="blog-body">A simple problem I had to solve during the javascript kata challenges was creating a javascript function that finds the average of an array of numbers. Because I am genuinely awful at maths, before even trying to solve the problem I had to search up and remind myself how to find the average of multiple numbers (dividing their total sum by the number of values in the list FYI). Then the problem became writing script that would enact that process. In problem solving during the kata challenges my general problem solving process has involved trying to write any code that I think could hypothetically work without any assistance and if it fails move on to pseudocoding and researching actual methods. I’m still trying to get a solid hold on a lot of the correct syntax and I’ve found quite a few times throughout the process that while my basic logic/instincts for what should be done is correct the way I write it out is causing me problems. The pseudocode/comment instructions I wrote for myself for the averaging function was this: </p>
+<code>
+  //for loop that goes through a given array (arr value)
+  <br>
+  // loop needs to count each number and create a total sum
+  <br>
+  // now we need to divide the total number by the number of values in the array (arr.length?) to get the average
+  <br>
+</code>
+<p class="blog-body">The actual code I ended up writing looked something like this:</p>
+<code>
+  function average(arr) {
+    <br>
+ let totalSum = 0;
+ <br>
+ for (let i = 0; i < arr.length; i++) {
+  <br>
+ 
+   totalSum += arr[i];
+   <br>
+ }
+ <br>
+ return totalSum / arr.length;
+ <br>
+}
+<br>
+</code>
+<p class="blog-body">I had to search up how to implement the += operator because the method I was using was not working in the way I intended but overall my final code functions fine. I’m sure there are ways it could be streamlined and at some point I would like to look into them.</p>
+<p class="blog-subheader">Reflect on how confident you feel using each of these problem-solving techniques/processes:</p>
+<p class="blog-subheader">Pseudocode</p>
+<p class="blog-body">I feel mostly confident using pseudocode to clear up problems, I think it was something I was doing in my head a bit even before I typed it out into the document.</p>
+
+<p class="blog-subheader">Trying something</p>
+<p class="blog-body">I have been generally trying to start my approach to each problem by simply just trying things out as I think it is the most satisfying and reinforcing for my memory / knowledge of the code when I am successful in it.</p>
+
+<p class="blog-subheader">Rubber Ducky method</p>
+<p class="blog-body">I have been doing lots of my coding while my partner works in the same room and have resorted to explaining my problems out loud to her in place of a rubber duck. </p>
+<p class="blog-subheader">Reading error messages</p>
+<p class="blog-body">The error messages have been a helpful guide at points although for the first few problems I was struggling to read the UI within the terminal as I was not yet used to the format.</p>
+<p class="blog-subheader">Console logging</p>
+<p class="blog-body">I am confident using console logs, it is generally a useful tool, although not something I jump to immediately, I think because in the javascript kata I was using the test results and error messages for the same purpose I would be console logging things out.</p>
+<p class="blog-subheader">Googling</p>
+<p class="blog-body">Very useful, very confident in using, it is great to have full guides on any given topic or issue available nearly instantly.</p>
+<p class="blog-subheader">Asking peers / coaches</p>
+<p class="blog-body">I am confident in my ability to ask others, I have used the foundations help channel during foundations already. It is usually my last resort as answers from others often take time and I like to work on things in my own timeframe.</p>
+<p class="blog-subheader">Improving your process with reflection</p>
+<p class="blog-body">I do this regularly and I think it is generally just a part of my learning process that happens naturally.</p>
+
+<p class="blog-subheader">Reflect on a time you were reluctant to ask for help</p>
+<p class="blog-body">I was reluctant to ask for help during the second sprint, when I was having issues with my blog's responsiveness. I was reluctant to ask for help because I was having issues with it on the sunday of that week and I felt ashamed that I was still working late into the sprint. I also feel a degree of stubbornness about these things and I did inevitably fix my site in time for the hand in. My philosophy I have been sticking to since then has been to tackle as much of the sprints as early in the week as possible, so that when I run into problems there is plenty of time to reach out to facilitators and peers if needed. </p>
+
+
+<a href="https://doseoftheplagues.github.io/index.html">Home</a>
+
+  </div>
+  </div>
+  </body>
+
+
+</html>

@@ -50,6 +50,7 @@ p {
 
 .blog-layout {
   width: 680px;
+  padding: 8px;
   background-color: #f2e3e7;
   border-right: 3px solid #f1f1e3;
   border-bottom: 3px solid #f1f1e3;
