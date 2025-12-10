@@ -105,7 +105,8 @@ button:hover {
 #headerimage {
   width: 860px;
   height: 100px;
-  background: url(photocollect/carriesheader61.png) no-repeat;
+  background: url(https://carriesfish.neocities.org/photocollect/carriesheader61.png)
+    no-repeat;
   background-size: cover;
   float: left;
   margin: 0 auto;
