@@ -1,252 +1,225 @@
 body {
-  background: url(https://doseoftheplagues.github.io/images/Peace.jpg);
+  height: 100%;
+  width: 100%;
+  background: url(https://carriesfish.neocities.org/A8948B66-6A4F-4EC6-A8D2-2B1B4B184504_1_105_c.jpeg)
+    no-repeat;
   background-size: cover;
+  font-family: lato, calibri, Verdana, Arial, Helvetica, sans-serif;
+  font-size: 9px;
+  text-shadow: 0px 0px 1px #bbb;
+  color: #777;
+  letter-spacing: 1px;
 }
 
-p {
-  margin: 0 auto;
-}
-
-.header {
-  margin: 0px auto;
-  text-align: center;
-  padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: 100;
-  color: #eeeeee;
-  border: 2px solid #eeeeee;
-  background-color: #d5b2bb;
-}
-
-.bar {
-  text-align: center;
-  font-size: 10px;
-  color: #eeeeee;
-  padding: 2px;
-  border-left: 2px solid #eeeeee;
-  border-bottom: 2px solid #eeeeee;
-  border-right: 2px solid #eeeeee;
-  background-color: #d5b2bb;
-  margin: 0px auto;
-}
-
-.title-bar {
-  text-align: left;
-  font-size: 10px;
-  color: #b17e95;
-  font-size: 15px;
-  padding: 2px;
-  background-color: #e1d6cf;
-  margin: 0px auto;
-}
-
-.page-layout {
-  margin: 0px auto;
-  padding: 10px;
-  width: 680px;
-  float: left;
-}
-
-.blog-layout {
-  width: 680px;
-  padding: 8px;
-  background-color: #f2e3e7;
-  border-right: 3px solid #f1f1e3;
-  border-bottom: 3px solid #f1f1e3;
-  border-left: 3px solid #f1f1e3;
-  margin: 0 auto;
-  float: left;
-}
-
-.blog-sidebar {
-  width: 680px;
-  background-color: #efe8da;
-  border-left: 3px solid #f1f1e3;
-  border-bottom: 3px solid #f1f1e3;
-  margin: 0 px;
-  float: left;
-  text-align: left;
-}
-
-.blog-header {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-  display: flex;
-  margin: 10px;
-  padding-bottom: 2px;
-  border-bottom: 2px dotted #d5b2bb;
-}
-
-.blog-image {
-  width: 100px;
-  height: 100px;
-  border: 2px solid #d5b2bb;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 2px;
-}
-
-.alt-blog-image {
-  width: 94%;
-  border: 2px solid #d5b2bb;
-  float: right;
-  margin: 10px;
-}
-
-.blog-body {
-  font-size: 15px;
-  margin: 10px;
-  text-align: left;
-}
-
-.blog-subheader {
-  font-size: 15px;
-  font-style: italic;
-  margin: 10px;
-  text-align: left;
-  color: #734e58;
-}
-
-ul {
-  padding-inline-start: 0;
-}
-
-li {
-  border-bottom: 2px dotted #d5b2bb;
-  text-indent: 2px;
-  color: #734e58;
-}
-
-a:link {
+a:link,
+a:visited,
+a:active {
+  font: 11px arial;
+  color: #777;
   text-decoration: none;
-  color: #734e58;
+}
+
+.feed-container .content .item {
+  margin: 0 0 7px 0;
+  padding: 0 0 7px 0;
+  border-bottom: 1px dashed #cccccc;
+}
+.feed-container .content .item .title {
+  margin: 1px 0 1px 3px;
+  padding: 1px 2px 1px 3px;
+  color: #5a4860;
+  font-weight: bold;
+}
+.feed-container .header .title {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.feed-container .content .item .description {
+  margin: 0 0 0 3px;
+  padding: 0 2px 0 3px;
+  color: #777;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c2c9b5;
+  border-radius: 0px;
+  border: 1px solid #ccc;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 0px;
+  background: transparent;
 }
 
 a:hover {
-  text-decoration: none;
-  color: #c1cfb2;
+  color: #999;
 }
 
-a:visited {
-  text-decoration: none;
-  color: #cb7389 !important;
+b {
+  color: #d18e8c;
+  font-weight: normal;
 }
 
-/* tablets */
-@media only screen and (max-width: 919px) {
-  #page-layout {
-    width: 90wv;
-  }
-
-  #blog-layout {
-    width: 90wv;
-  }
-
-  .blog-sidebar {
-    font-size: 10px;
-    width: 90vw;
-  }
-
-  .blog-header {
-    width: max-content;
-  }
-
-  .blog-subheader {
-    font-size: 25px;
-  }
-
-  .blog-image {
-    width: 150px;
-    height: 150px;
-  }
-
-  .blog-body {
-    font-size: 25px;
-  }
-
-  ul {
-    overflow: hidden;
-  }
-
-  li {
-    font-size: 25px;
-  }
-
-  a {
-    font-size: 25px;
-  }
-
-  p {
-    font-size: 20px;
-  }
-
-  .bar {
-    font-size: 5px;
-  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fffff3;
 }
 
-/* phones */
-@media only screen and (max-width: 400px) {
-  #page-layout {
-    width: 90vw;
-  }
+li {
+  float: left;
+}
 
-  li {
-    font-size: 25px;
-  }
+button {
+  display: block;
+  background: #ebede6;
+  margin-bottom: 1px;
+  padding-left: 5px;
+  text-transform: uppercase;
+  border-left: 5px solid #c2c9b5;
+  letter-spacing: 2px;
+  font: 9px monospace, arial;
+  color: #333;
+}
 
-  .header {
-    width: 90vw;
-    font-size: 20px;
-  }
+button:hover {
+  display: block;
+  background: #f5f5f5;
+  margin-bottom: 1px;
+  padding-left: 5px;
+  text-transform: uppercase;
+  border-left: 5px solid #d18e8c;
+  letter-spacing: 2px;
+  font: 9px monospace, arial;
+  color: #666;
+}
 
-  .bar {
-    width: 90vw;
-    font-size: 20px;
-  }
+#layout {
+  margin: 50px auto;
+  width: 895px;
+}
 
-  .blog-layout {
-    width: 90vw;
-  }
+#headerimage {
+  width: 860px;
+  height: 100px;
+  background: url(https://carriesfish.neocities.org/photocollect/carriesheader6.png)
+    no-repeat;
+  background-size: cover;
+  float: left;
+  margin: 0 auto;
+}
 
-  .blog-sidebar {
-    font-size: 20px;
-    width: 90wv;
-  }
+#navigation2 {
+  width: 860px;
+  height: 97px;
 
-  .blog-header {
-    font-size: 25px;
-  }
+  background: #c2c9b5;
+  border: 2px solid #c2c9b5;
+  margin: 0px;
+}
 
-  .blog-subheader {
-    font-size: 25px;
-  }
+#leftside {
+  width: 150px;
+  height: 1100px;
+  background: #fffff3;
+  border: 1px solid #c2c9b5;
+  float: left;
+  margin: 0 auto;
+  padding: 3px;
+  padding-top: 8px;
+  border-right: 1px solid #c2c9b5;
+}
 
-  .blog-image {
-    width: 150px;
-    height: 150px;
-  }
+#rightside {
+  width: 150px;
+  height: 1100px;
+  float: left;
+  margin: 0 auto;
+  background: #fffff3 url();
+  border: 1px solid #c2c9b5;
+  margin: 0px;
+  padding: 3px;
+  padding-top: 8px;
+  border-left: 1px solid #c2c9b5;
+}
 
-  .blog-body {
-    font-size: 25px;
-  }
+.middle {
+  width: 558px;
+  height: 1100px;
+  display: grid;
+  background-image: url(https://carriesfish.neocities.org/photocollect/carriebackgrondmewo.png);
+  background-size: 560px, 1100px;
+  background-repeat: no-repeat;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 
-  ul {
-    overflow: hidden;
-  }
+#content1 {
+  width: 560px;
+  height: 1100px;
+  float: left;
+  margin: 0 auto;
+}
 
-  a {
-    font-size: 25px;
-  }
+#content2 {
+  background: #fffff3 url();
+  border: 1px solid #c2c9b5;
 
-  p {
-    font-size: 20px;
-  }
+  margin: 0px;
+  padding: 0px;
+}
 
-  .bar {
-    font-size: 5px;
-  }
+.title {
+  font: 10px arial;
+  color: #4a4f41;
+  background: #c2c9b5;
+  letter-spacing: 2px;
+  padding-left: 5px;
+  padding: 0px;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 4px;
+  line-height: 10px;
+}
+
+.main-title {
+  text-align: center;
+  font: 11px arial;
+  text-transform: uppercase;
+  font: 10px arial;
+  color: #262326;
+  background: #f6d0d4;
+  letter-spacing: 2px;
+  padding-left: 5px;
+  padding: 0px;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 4px;
+  line-height: 10px;
+}
+
+.content-title {
+  text-align: center;
+  font: 11px arial;
+  text-transform: uppercase;
+  color: #4a4f41;
+  background: #c2c9b5;
+  letter-spacing: 2px;
+  padding-left: 5px;
+  border-bottom: 1px solid #fff;
+  line-height: 10px;
+  margin-bottom: 4px;
+}
+
+.content-title-lowercase {
+  text-align: center;
+  font: 11px arial;
+  color: #4a4f41;
+  background: #c2c9b5;
+  letter-spacing: 2px;
+  padding-left: 5px;
+  border-bottom: 1px solid #fff;
+  line-height: 10px;
+  margin-bottom: 4px;
 }
