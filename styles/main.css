@@ -105,8 +105,7 @@ button:hover {
 #headerimage {
   width: 860px;
   height: 100px;
-  background: url(https://carriesfish.neocities.org/photocollect/carriesheader6.png)
-    no-repeat;
+  background: url(photocollect/carriesheader61.png) no-repeat;
   background-size: cover;
   float: left;
   margin: 0 auto;
@@ -115,9 +114,7 @@ button:hover {
 #navigation2 {
   width: 775px;
   height: 97px;
-
   background: #c2c9b5;
-  border: 2px solid #c2c9b5;
   margin: 0px;
 }
 
@@ -131,19 +128,6 @@ button:hover {
   padding: 3px;
   padding-top: 8px;
   border-right: 1px solid #c2c9b5;
-}
-
-#rightside {
-  width: 150px;
-  height: 1100px;
-  float: left;
-  margin: 0 auto;
-  background: #fffff3 url();
-  border: 1px solid #c2c9b5;
-  margin: 0px;
-  padding: 3px;
-  padding-top: 8px;
-  border-left: 1px solid #c2c9b5;
 }
 
 .middle {
