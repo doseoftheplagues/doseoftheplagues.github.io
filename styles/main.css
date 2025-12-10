@@ -99,7 +99,7 @@ button:hover {
 
 #layout {
   margin: 50px auto;
-  width: 895px;
+  width: 775px;
 }
 
 #headerimage {
@@ -113,7 +113,7 @@ button:hover {
 }
 
 #navigation2 {
-  width: 860px;
+  width: 775px;
   height: 97px;
 
   background: #c2c9b5;
@@ -127,7 +127,7 @@ button:hover {
 }
 
 #leftside {
-  width: 150px;
+  width: 180px;
   height: 1100px;
   background: #fffff3;
   border: 1px solid #c2c9b5;
