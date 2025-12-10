@@ -121,11 +121,6 @@ button:hover {
   margin: 0px;
 }
 
-.threeFlex {
-  display: flex;
-  flex-direction: row;
-}
-
 #leftside {
   width: 180px;
   height: 1100px;
