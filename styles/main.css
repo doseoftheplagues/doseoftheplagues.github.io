@@ -99,11 +99,11 @@ button:hover {
 
 #layout {
   margin: 50px auto;
-  width: 775px;
+  width: 738px;
 }
 
 #headerimage {
-  width: 860px;
+  width: 738px;
   height: 100px;
   background: url(https://carriesfish.neocities.org/photocollect/carriesheader61.png)
     no-repeat;
@@ -113,7 +113,7 @@ button:hover {
 }
 
 #navigation2 {
-  width: 775px;
+  width: 738px;
   height: 97px;
   background: #c2c9b5;
   margin: 0px;
