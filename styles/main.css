@@ -119,13 +119,17 @@ button:hover {
 
 #leftside {
   width: 180px;
+  height: 1100px;
   background: #fffff3;
   border: 1px solid #c2c9b5;
   float: left;
   margin: 0 auto;
-  padding: 3px;
-  padding-top: 8px;
+  padding-top: 6px;
   border-right: 1px solid #c2c9b5;
+}
+
+.textDiv {
+  padding: 3px;
 }
 
 .middle {
@@ -143,6 +147,7 @@ button:hover {
   height: 1100px;
   float: left;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 #content2 {
@@ -154,12 +159,12 @@ button:hover {
 }
 
 .title {
-  font: 10px arial;
+  font: 11px arial;
   color: #4a4f41;
   background: #c2c9b5;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   padding-left: 5px;
-  padding: 0px;
+  padding: 2px;
   border-bottom: 1px solid #fff;
   margin-bottom: 4px;
   line-height: 10px;
@@ -169,7 +174,6 @@ button:hover {
   text-align: center;
   font: 11px arial;
   text-transform: uppercase;
-  font: 10px arial;
   color: #262326;
   background: #f6d0d4;
   letter-spacing: 2px;
