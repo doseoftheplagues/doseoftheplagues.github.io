@@ -99,7 +99,7 @@ button:hover {
 
 #layout {
   margin: 50px auto;
-  width: 738px;
+  width: 748px;
 }
 
 #headerimage {
@@ -132,7 +132,7 @@ button:hover {
 }
 
 .middle {
-  width: 558px;
+  width: 553px;
   height: 1100px;
   display: grid;
   background-image: url(https://carriesfish.neocities.org/photocollect/carriebackgrondmewo.png);
@@ -143,7 +143,7 @@ button:hover {
 }
 
 #content1 {
-  width: 560px;
+  width: 554px;
   height: 1100px;
   float: left;
   margin: 0 auto;
