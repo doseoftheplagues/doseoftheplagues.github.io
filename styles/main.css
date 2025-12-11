@@ -5,7 +5,7 @@ body {
     no-repeat;
   background-size: cover;
   font-family: lato, calibri, Verdana, Arial, Helvetica, sans-serif;
-  font-size: 9px;
+  font-size: 11px;
   text-shadow: 0px 0px 1px #bbb;
   color: #777;
   letter-spacing: 1px;
@@ -73,12 +73,11 @@ li {
   float: left;
 }
 
-button {
+.button {
   display: block;
   background: #ebede6;
   margin-bottom: 1px;
   padding-left: 5px;
-  text-transform: uppercase;
   border-left: 5px solid #c2c9b5;
   letter-spacing: 2px;
   font: 9px monospace, arial;
@@ -90,7 +89,6 @@ button:hover {
   background: #f5f5f5;
   margin-bottom: 1px;
   padding-left: 5px;
-  text-transform: uppercase;
   border-left: 5px solid #d18e8c;
   letter-spacing: 2px;
   font: 9px monospace, arial;
@@ -121,7 +119,6 @@ button:hover {
 
 #leftside {
   width: 180px;
-  height: 1100px;
   background: #fffff3;
   border: 1px solid #c2c9b5;
   float: left;
@@ -132,14 +129,13 @@ button:hover {
 }
 
 .middle {
-  width: 553px;
+  border-right: 1px solid #c2c9b5;
+  width: 552px;
   height: 1100px;
-  display: grid;
+  display: flex;
   background-image: url(https://carriesfish.neocities.org/photocollect/carriebackgrondmewo.png);
   background-size: 560px, 1100px;
   background-repeat: no-repeat;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 #content1 {
